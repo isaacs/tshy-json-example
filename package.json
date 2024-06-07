@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@types/node": "^20.14.2",
+    "package-json-from-dist": "^1.0.0",
     "tshy": "^1.15.0",
     "typescript": "^5.4.5"
   },

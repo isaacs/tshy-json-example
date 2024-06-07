@@ -1,4 +1,4 @@
-import json from './json.json';
+import json from "./json.json";
 type T = typeof json;
 export declare const t: T;
 export {};

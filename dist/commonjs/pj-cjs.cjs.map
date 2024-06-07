@@ -1,0 +1,1 @@
+{"version":3,"file":"pj-cjs.cjs","sourceRoot":"","sources":["../../src/pj-cjs.cts"],"names":[],"mappings":";;;AAAA,mEAAyD;AAC5C,QAAA,EAAE,GAAG,IAAA,wCAAe,EAAC,UAAU,EAAE,iBAAiB,CAAC,CAAC","sourcesContent":["import { findPackageJson } from \"package-json-from-dist\";\nexport const pj = findPackageJson(__filename, \"../package.json\");\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/index.ts"],"names":[],"mappings":";;;AAIA,kBAAkB;AACL,QAAA,CAAC,GAAM,EAAE,IAAI,EAAE,QAAQ,EAAE,CAAA","sourcesContent":["import json from './json.json'\n\ntype T = typeof json\n\n//@ts-expect-error\nexport const t: T = { nope: 'not ok' }\n"]}
